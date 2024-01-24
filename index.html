@@ -25,6 +25,7 @@
                         clifford: '#da373d',
                         'primary-clr': '#FF4240',
                         'text-color': 'rgba(19, 19, 24, 0.60)',
+                        'common-clr': '#FFF',
                     }
                 }
             }
@@ -187,7 +188,7 @@
             <!-- Grid section -->
             <div
                 class="w-[95%] lg:w-full mx-auto my-10 grid grid-cols-1 lg:grid-cols-2 lg:grid-rows-[400px,480px] gap-6 lg:my-12">
-                <div class="rounded-2xl p-6 lg:p-32 lg:pl-10"
+                <div class="rounded-2xl p-6 lg:p-32 lg:pl-10 bg-center"
                     style="background-image: url('Images/Hockey-1.png'); background-repeat: no-repeat; background-size: cover;">
                     <h2 class="text-[20px] lg:text-[28px] text-[#FFFFFF] font-extrabold">Junior Program</h2>
                     <p class="text-[14px] lg:text-[16px] text-[#FFFFFF] font-semibold my-3 lg:my-3">Cutting-edge
@@ -196,7 +197,7 @@
                         talents to thrive, combining technology, safety, and inspiration.</p>
                     <a class="btn bg-primary-clr text-1 py-4 px-6 lg:my-3 text-white border-0">Register Now!</a>
                 </div>
-                <div class="rounded-2xl p-6 lg:p-32 lg:pl-10"
+                <div class="rounded-2xl p-6 lg:p-32 lg:pl-10 bg-center"
                     style="background-image: url('Images/Hockey-2.png'); background-repeat: no-repeat; background-size: cover;">
                     <h2 class="text-[20px] lg:text-[28px] text-[#FFFFFF] font-extrabold">Teenager Program</h2>
                     <p class="text-[14px] lg:text-[16px] text-[#FFFFFF] font-semibold my-3 lg:my-3">The Teenager Program
@@ -205,7 +206,7 @@
                     <a class="btn bg-primary-clr text-1 py-4 px-6 lg:my-3 text-white border-0">Register Now!</a>
                 </div>
 
-                <div class="lg:col-span-2 rounded-2xl p-6 lg:pt-56 lg:pl-10"
+                <div class="lg:col-span-2 rounded-2xl p-6 lg:pt-56 lg:pl-10 bg-center"
                     style="background-image: url('Images/Hockey-3.png'); background-repeat: no-repeat; background-size: cover;">
                     <h2 class="text-[20px] lg:text-[28px] text-[#FFFFFF] font-extrabold">Professional Program</h2>
                     <p class="lg:w-[650px] text-[14px] lg:text-[16px] text-[#FFFFFF] font-semibold my-3 lg:my-3">The
@@ -455,7 +456,7 @@
                 <div class="lg:flex gap-6">
                     <!-- Contact -->
                     <div class="border-2 rounded-2xl p-12 flex flex-col gap-6">
-                        <div class="bg-[#BCED6D1A] rounded-2xl py-9 pl-8">  
+                        <div class="bg-[#BCED6D1A] rounded-2xl py-9 pl-8">
                             <img src="Images/Group 1171275317.png" alt="">
                             <p class="mt-9">Phone Number :</p>
                             <p>(+880) 1875412628</p>
@@ -477,26 +478,32 @@
                         <div class="grid grid-cols lg:grid-cols-2 mx-auto gap-6 mt-10 lg:mt-0">
                             <div>
                                 <p class="text-xl font-bold">Your Name</p>
-                                <input type="text" name="" id="" placeholder="Enter your Full Name" class="w-[100%] bg-[#13131808] p-5 rounded-2xl my-4">
+                                <input type="text" name="" id="" placeholder="Enter your Full Name"
+                                    class="w-[100%] bg-[#13131808] p-5 rounded-2xl my-4">
                             </div>
                             <div>
                                 <p class="text-xl font-bold">Your Email</p>
-                                <input type="text" name="" id="" placeholder="Enter your email" class="w-[100%] bg-[#13131808] p-5 rounded-2xl my-4">
+                                <input type="text" name="" id="" placeholder="Enter your email"
+                                    class="w-[100%] bg-[#13131808] p-5 rounded-2xl my-4">
                             </div>
                             <div>
                                 <p class="text-xl font-bold">Subject</p>
-                                <input type="text" name="" id="" placeholder="Enter your subject" class="w-[100%] bg-[#13131808] p-5 rounded-2xl my-4">
+                                <input type="text" name="" id="" placeholder="Enter your subject"
+                                    class="w-[100%] bg-[#13131808] p-5 rounded-2xl my-4">
                             </div>
                             <div>
                                 <p class="text-xl font-bold">Phone Number</p>
-                                <input type="text" name="" id="" placeholder="Enter your phone number" class="w-[100%] bg-[#13131808] p-5 rounded-2xl my-4">
+                                <input type="text" name="" id="" placeholder="Enter your phone number"
+                                    class="w-[100%] bg-[#13131808] p-5 rounded-2xl my-4">
                             </div>
                         </div>
                         <div>
                             <p class="text-xl font-bold">Message</p>
-                            <textarea name="" id="" cols="30" rows="13" placeholder="Write your message" class="bg-[#13131808] my-4 rounded-2xl lg:w-full w-[95%] mx-auto pt-4 pl-4"></textarea>
+                            <textarea name="" id="" cols="30" rows="13" placeholder="Write your message"
+                                class="bg-[#13131808] my-4 rounded-2xl lg:w-full w-[95%] mx-auto pt-4 pl-4"></textarea>
                         </div>
-                        <button class="w-[100%] bg-[#FF4240] text-[#FFFFFF] text-xl font-bold p-5 rounded-2xl my-4">Send Message</button>
+                        <button class="w-[100%] bg-[#FF4240] text-[#FFFFFF] text-xl font-bold p-5 rounded-2xl my-4">Send
+                            Message</button>
                     </div>
                 </div>
             </div>
@@ -516,8 +523,37 @@
     </main>
 
     <!-- Footer Section -->
-    <footer>
 
+    <footer class="w-full footer p-10 text-white bg-[#131318] text-base-content grid justify-items-center grid-cols-2 lg:grid-cols-4">
+        <aside class="col-span-2 lg:col-span-1 lg:grid">
+            <h2 class="common-clr text-2xl font-extrabold ">Get In Touch</h2>
+            <p class="text-[#FFFFFF99]">RinkRival's Hockey<br />Providing best facilities since 1992</p>
+            <p class="text-[#FFFFFF99]"><i class="fa-regular fa-envelope text-[#FF4240] text-xl mr-4"></i> hodomai@gmail.com</p>
+            <p class="text-[#FFFFFF99]"><i class="fa-solid fa-phone text-[#FF4240] text-xl mr-4"></i>(+880) 1875412628</p>
+        </aside>
+        <nav class="col-span-1 lg:col-span-1 flex flex-col justify-center items-center lg:grid">
+            <header class="text-[#FFFFFF] text-[18px] font-bold">Company</header>
+            <a class="link link-hover text-[#FFFFFF99] text-[16px] font-medium">About us</a>
+            <a class="link link-hover text-[#FFFFFF99] text-[16px] font-medium">Leadership</a>
+            <a class="link link-hover text-[#FFFFFF99] text-[16px] font-medium">Careers</a>
+            <a class="link link-hover text-[#FFFFFF99] text-[16px] font-medium">News & Article</a>
+            <a class="link link-hover text-[#FFFFFF99] text-[16px] font-medium">Legal Notice</a>
+        </nav>
+        <nav class="col-span-1 lg:col-span-1 flex flex-col justify-center items-center lg:grid">
+            <header class="text-[#FFFFFF] text-[18px] font-bold">Support</header>
+            <a class="link link-hover text-[#FFFFFF99] text-[16px] font-medium">Help Center</a>
+            <a class="link link-hover text-[#FFFFFF99] text-[16px] font-medium">FAQ</a>
+            <a class="link link-hover text-[#FFFFFF99] text-[16px] font-medium">Ticket Support</a>
+            <a class="link link-hover text-[#FFFFFF99] text-[16px] font-medium">Contact Us</a>
+        </nav>
+        <nav class="col-span-2 lg:col-span-1 flex flex-col justify-center items-center lg:grid">
+            <header class="text-[#FFFFFF] text-[18px] font-bold">Services</header>
+            <a class="link link-hover text-[#FFFFFF99] text-[16px] font-medium">Academy</a>
+            <a class="link link-hover text-[#FFFFFF99] text-[16px] font-medium">Group Lesson</a>
+            <a class="link link-hover text-[#FFFFFF99] text-[16px] font-medium">Private Lesson</a>
+            <a class="link link-hover text-[#FFFFFF99] text-[16px] font-medium">Hockeys for kids</a>
+            <a class="link link-hover text-[#FFFFFF99] text-[16px] font-medium">Hockeys for Adult</a>
+        </nav>
     </footer>
 </body>
 
